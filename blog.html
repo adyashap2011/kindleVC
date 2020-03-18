@@ -108,6 +108,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   height: inherit;
 }
 </style>
+
 <body>
 
 <!-- Navbar -->
@@ -119,17 +120,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
+<div class="w3-main" >
 
   <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
+    <div class="w3-twothird w3-container" style="margin-left:250px">
       <h1 class="w3-text-teal"><a href="#">Blog 1</a></h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
         dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     
   <div class="w3-row">
-    <div class="w3-twothird w3-container">
+    <div class="w3-twothird w3-container" style="margin-left:250px">
       <h1 class="w3-text-teal"><a href="#">Blog 2</a></h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
         dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -137,16 +138,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     
 
   <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
+    <div class="w3-twothird w3-container" style="margin-left:250px">
       <h1 class="w3-text-teal"><a href="#">Blog 3</a></h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
         dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center"></p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center"></p>
-    </div>
-  </div>
+    
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
@@ -162,7 +159,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   
 
-<!-- END MAIN -->
+
 </div>
 
 <script>
@@ -189,28 +186,61 @@ function w3_close() {
   overlayBg.style.display = "none";
 }
 </script>
-
 </body>
-</html>
 
-        </body>
-<footer>
-    <div class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="fblock-1">
-                        <p><img class="img-fluid mb-3" src="/images/white-logo.png" alt="" /></p>
-  <div class="fdetails">
-  <div class="faddress mb-3">Dr Aniruddha Malpani, MD Jamuna Sager, SBS Road, Colaba, Mumbai 400 005</div>
-  <div class="fweblink mb-4">
-  <p><strong>Email:</strong> info.malpaniventures@gmail.com</p>
-  <strong>Dr Aniruddha Malpani</strong><br /> <a href="https://www.malpaniventures.com/">www.malpaniventures.com</a>
-  <p>Funding Frugal Innovation in India</p>
+
+
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+  <div class="container1"> 
+    <div class="row mb-5" >
+        <div class="col-md" style="float: left;">
+         <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">About</h2>
+          <p >We are a team of enthusiats who strive in connecting job seekers to job providers.</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-left mt-3">
+            <li class="ftco-animate"><a href="https://www.facebook.com/jobvacancyresult/" target="_blank"><img src="https://image.flaticon.com/icons/svg/123/123717.svg" alt=""></a></li>
+            <li class="ftco-animate"><a href="https://www.facebook.com/jobvacancyresult/" target="_blank"><img src="https://image.flaticon.com/icons/svg/152/152810.svg" alt=""></a></li>
+            <li class="ftco-animate"><a href="https://www.facebook.com/jobvacancyresult/" target="_blank"><img src="https://image.flaticon.com/icons/svg/1051/1051333.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md" style="float: left;">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Heading 1</h2>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="py-2 d-block">About us</a></li>
+            <li><a href="portfolio.html" class="py-2 d-block">Portfolio</a></li>
+            <li><a href="team.html" class="py-2 d-block">Team</a></li>
+            <li><a href="" class="py-2 d-block">Contact</a></li>
+            <li><a href="" class="py-2 d-block">Gallery</a></li>
+            <li><a href="https://forms.gle/owWDHMQCoJao6VMC6" class="py-2 d-block">Pitch Deck</a></li>
+            <li><a href="blog.html" class="py-2 d-block">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-md" style="float: left;">
+        <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><span class="icon icon-phone"><a href=""></span><span class="text">kindleVC, Address</span></a></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 11111 11111</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info.kindleVc@gmail.com</span></a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        
+      </div>
+    </div>
   </div>
-  </div>
-  <p><iframe src="https://www.google.com/maps?q=Dr Aniruddha Malpani, MD Jamuna Sager, SBS Road,Colaba, Mumbai 400 005&amp;z=14&amp;t=m&amp;output=embed" width="100%" height="180"></iframe></p>
-                        
-                    </div>
-                </div>
-</footer>
+</footer>  
+
+      
+</html>
+        

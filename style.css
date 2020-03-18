@@ -820,7 +820,10 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   padding: 90px 0;
 }
-
+.service .service-item img{
+  width:100px;
+  height:90px;
+}
 .service .service-item {
   padding-bottom: 30px;
 }
@@ -892,7 +895,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRi7iuAvSujuSn1U0z7lubIsxwKnSiUJuo3KAWoY8CiHsQIBVUng");
   background-position: 50% 94px;
   display: block;
   position: relative;
@@ -2195,7 +2198,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .bg-2 {
-  background: url("../images/featue-bg.jpg");
+  background: url("bgf.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2812,3 +2815,133 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+
+.ftco-bg-dark {
+  background: #3c312e; }
+
+.ftco-footer {
+  font-size: 16px;
+  background: #222831;
+  padding: 7em 0; }
+  .ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em; }
+  .ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400; }
+  .ftco-footer .ftco-footer-widget ul li a {
+    color: rgba(255, 255, 255, 0.4); }
+    .ftco-footer .ftco-footer-widget ul li a span {
+      color: #fff; }
+  .ftco-footer .ftco-footer-widget .btn-primary {
+    background: #fff !important;
+    border: 2px solid #fff !important; }
+    .ftco-footer .ftco-footer-widget .btn-primary:hover {
+      background: #fff;
+      border: 2px solid #fff !important; }
+  .ftco-footer p {
+    color: rgba(255, 255, 255, 0.7); }
+  .ftco-footer a {
+    color: rgba(255, 255, 255, 0.7); }
+    .ftco-footer a:hover {
+      color: #fff; }
+  .ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000; }
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block; }
+  .ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative; }
+    .ftco-footer-social li a span {
+      position: absolute;
+      font-size: 26px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .ftco-footer-social li a:hover {
+      color: #fff; }
+      .container1 {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; }
+        @media (min-width: 576px) {
+          .container1 {
+            max-width: 540px; } }
+        @media (min-width: 768px) {
+          .container1 {
+            max-width: 720px; } }
+        @media (min-width: 992px) {
+          .container1 {
+            max-width: 960px; } }
+        @media (min-width: 1200px) {
+          .container1 {
+            max-width: 1140px; } }
+      
+      .container1-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; }
+        
+.mb-4,.my-4 {
+  margin-bottom: 1.5rem !important; }
+  
+.col-md,.col-md-auto {
+  
+  width:33%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+  
+}
+.ml-md-4,.mx-md-4 {
+    margin-left: 1.5rem !important; }
+.list-unstyled {
+      padding-left: 0;
+      list-style: none; 
+    }
+
+.mb-5,.my-5 {
+        margin-bottom: 3rem !important; }
+.py-2 {
+    padding-top: 0.5rem !important; }
+.d-block {
+      display: block !important; }
+@media (min-width: 768px) {
+        .float-md-left {
+          float: left !important; }
+        .float-md-right {
+          float: right !important; }
+        .float-md-none {
+          float: none !important; } }
+.float-left {
+            float: left !important; }
+.mt-3,.my-3 {
+              margin-top: 1rem !important; }
+              
